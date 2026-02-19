@@ -1,3 +1,5 @@
+#this file checks if there are at least 30 patients in each state at some time points
+
 #check time between progression events and death
 datatimes<- widedata[,c(1,3,4,5,6)]
 for (i in 1:nrow(widedata)) {
@@ -46,3 +48,4 @@ for (t in timestry) {
     print(t)
   }
 }
+
