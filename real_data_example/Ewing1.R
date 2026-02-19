@@ -1,3 +1,5 @@
+#5 states model
+
 ##########################################################
 #INSTALL PACKAGES
 ##########################################################
@@ -593,6 +595,7 @@ plot(ptA, ord=c(2,3,4,5,1), main=list("Patient B", cex=1.5), las=1,
      xlab=list("Years since randomization", cex=1.5), xlim=c(0,6), type="filled", 
      col= c("red2", "orange", "light yellow", "light green", "#00B81F"))
 dev.off()
+
 
 
 
