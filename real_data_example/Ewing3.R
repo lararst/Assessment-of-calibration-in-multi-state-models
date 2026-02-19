@@ -1,3 +1,5 @@
+#this file produces predicted transition probabilities
+
 #########################################################################
 #SEPARATING SETS (development and validation)
 unique_ids <- unique(longdata$id)
@@ -85,5 +87,6 @@ for (id in ids.valid) {
   ### Subset the validation cohort
   ce_calc_probtran= rbind(ce_calc_probtran, pt.se[1,])
 }
+
 
 tp.predicted <- ce_calc_probtran
