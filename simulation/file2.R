@@ -3,9 +3,9 @@
 ### with three types of scenario: RC, WAC and SAC
 ###
 
-source("C:/Users/userr/Desktop/ms_thesis/simulation/original_code/z_functions.R")
-source("C:/Users/userr/Desktop/ms_thesis/simulation/original_code/z_functions_true_transition_probs.R")
-source("C:/Users/userr/Desktop/ms_thesis/simulation/original_code/z_load_packages.R")
+source("/z_functions.R")
+source("/z_functions_true_transition_probs.R")
+source("/z_load_packages.R")
 
 ### Define time at which risks will be generated and  calibration will be assessed
 t.eval <- round(365.25*7)
