@@ -1,9 +1,9 @@
 ###
 ### Estimating the true calibration curves
 ###
-source("C:/Users/userr/Desktop/ms_thesis/simulation/original_code/z_functions.R")
-source("C:/Users/userr/Desktop/ms_thesis/simulation/original_code/z_functions_true_transition_probs.R")
-source("C:/Users/userr/Desktop/ms_thesis/simulation/original_code/z_load_packages.R")
+source("/original_code/z_functions.R")
+source("/z_functions_true_transition_probs.R")
+source("/z_load_packages.R")
 
 ### True calibration is the same irrespective of the censoring that has been applied, 
 ### so just need to load data for one scenario
